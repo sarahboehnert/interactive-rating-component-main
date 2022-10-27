@@ -1,0 +1,149 @@
+body {
+  color: #8A909C;
+  background-color: #141519;
+
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+section {
+  background-color: #1F2630;
+
+  padding: 30px;
+  width: 340px;
+}
+
+h1 {
+  color: #fff;
+
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* ----------------------------- Rating Section ----------------------------- */
+
+.circle {
+  border-radius: 100%;
+
+  background-color: #262F38;
+}
+
+.star {
+  color: #FD7617;
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.rating .circle {
+  margin: auto;
+  display: flex;
+
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating .circle:first-child {
+  margin-left: 0;
+}
+
+.rating .circle:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-color: #7D8798;
+  color: #fff;
+}
+
+.rating .circle:hover {
+  background-color: #FD7617;
+  color: #fff;
+}
+
+button {
+  background-color: #FD7617;
+  color: #fff;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+
+  border-radius: 100px;
+}
+
+/* ---------------------------- Thank You Section --------------------------- */
+
+.thankYouSection {
+  display: none;
+  text-align: center;
+}
+
+.thankYouSection img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thankYouSection h1 {
+  margin-top: 0;
+}
+
+.youSelected {
+  color: #FD7617;
+  display: inline-block;
+  border-radius: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 5px 20px;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer a {
+  color: #3D51A2;
+  color: hsl(228, 45%, 44%);
+}
